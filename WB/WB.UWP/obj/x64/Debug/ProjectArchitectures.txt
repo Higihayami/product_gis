@@ -1,0 +1,1 @@
+C:\Users\fatik\source\repos\WB\WB\WB.UWP\WB.UWP.csproj;x64
