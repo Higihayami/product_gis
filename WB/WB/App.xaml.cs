@@ -3,7 +3,6 @@ using WB.Services;
 using WB.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace WB
 {
@@ -17,7 +16,7 @@ namespace WB
             DependencyService.Register<MockDataStore>();
             string refreshToken = Preferences.Get(Constants.FIREBASE_TOKEN_KEY, "");
             Console.WriteLine("TOKENTOKEN" + refreshToken);
-            if (refreshToken != "")
+            if (false)
             {
                 ((App)Application.Current).SwitchToAppShell();
             }

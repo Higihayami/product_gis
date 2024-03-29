@@ -2,11 +2,14 @@
 <ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WB.Views.RegistrationPage"
-             xmlns:pages="clr-namespace:WB.Views">
+             xmlns:viewModels="clr-namespace:WB.ViewModels">
+    <ContentPage.BindingContext>
+        <viewModels:RegistrationPageViewModel />
+    </ContentPage.BindingContext>
     <StackLayout Padding="20">
-        <Entry Placeholder="Username" />
-        <Entry Placeholder="Password" IsPassword="True" />
-        <Entry Placeholder="Confirm Password" IsPassword="True" />
-        <Button Text="Register" Clicked="OnRegisterButtonClicked" />
-     </StackLayout>
+        <Entry Placeholder="Username" Text="{Binding Username}" />
+        <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}" />
+        <Entry Placeholder="Confirm Password" IsPassword="True" Text="{Binding ConfirmPassword}" />
+        <Button Text="Register" Command="{Binding RegisterCommand}" />
+    </StackLayout>
 </ContentPage >
