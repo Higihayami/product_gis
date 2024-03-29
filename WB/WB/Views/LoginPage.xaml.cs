@@ -57,28 +57,16 @@ namespace WB.Views
             Content = layout;
         }
 
-        private async void OnLoginButtonClicked(object sender, EventArgs e)
+        async void OnLoginButtonClicked(object sender, EventArgs e)
         {
             string username = usernameEntry.Text;
             string password = passwordEntry.Text;
-
-            try
-            {
-                
-
-                
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-            }
 
             bool isAuthenticated = await databaseService.CheckUserExists(username, password);
 
             if (isAuthenticated)
             {
-                await Navigation.PushAsync(new TabbedPage1());
-                Navigation.RemovePage(this);
+                ((App)Application.Current).SwitchToAppShell();
             }
             else
             {
