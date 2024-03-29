@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace WB.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ProfilePage : ContentView
+    public partial class ProfilePage : ContentPage
     {
         public ProfilePage()
         {
