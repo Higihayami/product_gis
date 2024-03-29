@@ -647,3 +647,14 @@
 /Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/Firebase.Auth.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Collections.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Linq.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Reflection.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Threading.dll
+/Users/scumwd/Projects/product_gis/WB/WB.Android/obj/Debug/android/assets/System.Threading.Tasks.dll

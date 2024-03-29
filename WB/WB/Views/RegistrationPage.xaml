@@ -8,5 +8,5 @@
         <Entry Placeholder="Password" IsPassword="True" />
         <Entry Placeholder="Confirm Password" IsPassword="True" />
         <Button Text="Register" Clicked="OnRegisterButtonClicked" />
-     </StackLayout>
+    </StackLayout>
 </ContentPage >

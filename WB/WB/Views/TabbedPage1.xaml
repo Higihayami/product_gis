@@ -1,9 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WB.Views.TabbedPage1">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+             x:Class="WB.Views.TabbedPage1"
+             xmlns:pages="clr-namespace:WB.Views">
+
+    <TabbedPage.Children>
+        <NavigationPage Title="Main" IconImageSource ="">
+            <x:Arguments>
+                <pages:ContentPage/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Main" IconImageSource ="">
+            <x:Arguments>
+                <pages:ContentPage/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Main" IconImageSource ="">
+            <x:Arguments>
+                <pages:ContentPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
 </TabbedPage>

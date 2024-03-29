@@ -1298,3 +1298,12 @@ C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\stamp\_Conve
 C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Collections.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Diagnostics.Debug.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Linq.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Reflection.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Reflection.Extensions.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Runtime.Serialization.Primitives.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Text.Encoding.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Threading.dll
+C:\Users\fatik\source\repos\product_gis\WB\WB.Android\obj\Debug\130\android\assets\System.Threading.Tasks.dll

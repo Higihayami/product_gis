@@ -47,6 +47,8 @@ C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.csproj
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\ContentPage.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\FavoritePage.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
@@ -54,15 +56,8 @@ C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\Log
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\RegistrationPage.xaml.g.cs
+C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\TabbedPage1.xaml.g.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.AssemblyInfoInputs.cache
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.AssemblyInfo.cs
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.csproj.CoreCompileInputs.cache
 C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.sourcelink.json
-C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.dll
-C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\refint\WB.dll
-C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\WB.pdb
-C:\Users\fatik\source\repos\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.deps.json
-C:\Users\fatik\source\repos\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.dll
-C:\Users\fatik\source\repos\product_gis\WB\WB\bin\Debug\netstandard2.0\ref\WB.dll
-C:\Users\fatik\source\repos\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.pdb
-C:\Users\fatik\source\repos\product_gis\WB\WB\obj\Debug\netstandard2.0\XamlC.stamp
