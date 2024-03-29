@@ -29,9 +29,7 @@ C:/Users/fatik/source/repos/WB/WB/WB/obj/Debug/netstandard2.0/Views/ProfilePage.
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/WB.csprojAssemblyReference.cache
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
-/Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/FavoritePage.xaml.g.cs
-/Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/ItemDetailPage.xaml.g.cs
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/ItemsPage.xaml.g.cs
 /Users/scumwd/Projects/product_gis/WB/WB/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs

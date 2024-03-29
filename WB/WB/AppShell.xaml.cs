@@ -13,7 +13,6 @@ namespace WB
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
-            Navigation.PushAsync(new ItemsPage());
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
