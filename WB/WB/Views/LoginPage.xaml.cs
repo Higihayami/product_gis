@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Firebase.Auth;
 using WB.Services;
-using WB.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -65,6 +61,17 @@ namespace WB.Views
         {
             string username = usernameEntry.Text;
             string password = passwordEntry.Text;
+
+            try
+            {
+                
+
+                
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+            }
 
             bool isAuthenticated = await databaseService.CheckUserExists(username, password);
 

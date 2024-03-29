@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Aau0RweoMZKk91/F/cdlk2S9DEjrSLNNQvIHuxKIU5elI5gu2WEmGEKyQvCHzxyYXNrotsIvUANdIk4sQQ/j9Q==",
+  "dgSpecHash": "6xialHbno1qPK04MtB7TwLyNMqZ+AYQ69wtt6+kHINlarddRzRE/bs9mHu2XO3u18gl3XokilXxJE6FdSBPhvw==",
   "success": true,
   "projectFilePath": "/Users/scumwd/Projects/product_gis/WB/WB/WB.csproj",
   "expectedPackageFiles": [
-    "/Users/scumwd/.nuget/packages/firebaseauthentication.net/4.1.0/firebaseauthentication.net.4.1.0.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/firebaseauthentication.net/3.4.0/firebaseauthentication.net.3.4.0.nupkg.sha512",
     "/Users/scumwd/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/scumwd/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
-    "/Users/scumwd/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/scumwd/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
     "/Users/scumwd/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "/Users/scumwd/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Firebase.Auth;
 using WB.Services;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -71,9 +72,22 @@ namespace WB.Views
                 await DisplayAlert("Error", "Passwords do not match", "OK");
                 return;
             }
+            var goodBro = false;
+            try
+            {
+                var authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyCGN7HMhOcsN3rg2I19LA1WQqGby53wugI"));
+                await authProvider.CreateUserWithEmailAndPasswordAsync(username, password);
+                goodBro = true;
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+                goodBro = false;
+            }
 
             int result = await databaseService.AddUserAsync(username, password);
-            if (result > 0)
+           
+            if (result > 0 && goodBro)
             {
                 await DisplayAlert("Success", "Registration successful", "OK");
                 await Navigation.PopAsync();
