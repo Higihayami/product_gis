@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -496,6 +512,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -830,6 +859,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -843,6 +873,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -1338,6 +1384,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -1772,6 +1831,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -1785,6 +1845,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -2280,6 +2356,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {
         "type": "package",
         "compile": {
@@ -2715,6 +2804,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -2728,6 +2818,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -3223,6 +3329,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -3655,6 +3774,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -3668,6 +3788,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -4163,6 +4299,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -4597,6 +4746,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -4610,6 +4760,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -5105,6 +5271,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -5540,6 +5719,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -5553,6 +5733,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -6048,6 +6244,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -6482,6 +6691,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -6495,6 +6705,22 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
+      "FirebaseAuthentication.net/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Firebase.Auth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -6990,6 +7216,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
         "type": "package",
         "dependencies": {
@@ -7425,6 +7664,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FirebaseAuthentication.net": "4.1.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
           "sqlite-net-pcl": "1.8.116"
@@ -7439,6 +7679,22 @@
     }
   },
   "libraries": {
+    "FirebaseAuthentication.net/4.1.0": {
+      "sha512": "pShi5v9cvT5bUWZDm261lO4uxJHvzOvpj46YHrL3uCB1WBeyCIcpoVakAQ2xHTu1dpmV86/BzSNRpqIGNp860g==",
+      "type": "package",
+      "path": "firebaseauthentication.net/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "firebase.png",
+        "firebaseauthentication.net.4.1.0.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard2.0/Firebase.Auth.dll",
+        "lib/netstandard2.0/Firebase.Auth.xml"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.10-rel-29722-00": {
       "sha512": "zhPr5WeW8JQnt83lC0EM2kpp6zsKQQV9zQO48mh+f6aaK/eT8Zj/K7kmJ60KgP+WgWTfVGmrSp2TARd70jd62g==",
       "type": "package",
@@ -7978,6 +8234,36 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.12": {
@@ -12341,11 +12627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB.UWP\\WB.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
       "projectName": "WB.UWP",
-      "projectPath": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB.UWP\\WB.UWP.csproj",
+      "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
       "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB.UWP\\obj\\",
+      "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -12367,8 +12653,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB\\WB.csproj": {
-              "projectPath": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB\\WB.csproj"
+            "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
+              "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj"
             }
           }
         }

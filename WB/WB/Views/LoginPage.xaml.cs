@@ -61,7 +61,7 @@ namespace WB.Views
             Content = layout;
         }
 
-        async void OnLoginButtonClicked(object sender, EventArgs e)
+        private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
             string username = usernameEntry.Text;
             string password = passwordEntry.Text;
@@ -70,7 +70,7 @@ namespace WB.Views
 
             if (isAuthenticated)
             {
-                ((App)Application.Current).SwitchToAppShell();
+                await Navigation.PushAsync(new ItemsPage());
                 Navigation.RemovePage(this);
             }
             else

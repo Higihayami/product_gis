@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Firebase.Auth.Providers;
+using System;
 using WB.Services;
 using WB.Views;
 using Xamarin.Forms;
@@ -14,8 +15,10 @@ namespace WB
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new LoginPage();
+            MainPage = new NavigationPage(new LoginPage());
         }
+
+       
 
         protected override void OnStart()
         {
