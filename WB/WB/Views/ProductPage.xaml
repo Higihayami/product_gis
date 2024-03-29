@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WB.Views"
+             x:Class="WB.Views.ProductPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10">
+            <Image x:Name="productImage" Aspect="AspectFit" HorizontalOptions="CenterAndExpand"/>
+            <Label x:Name="titleLabel" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,10" />
+            <Label x:Name="descriptionLabel" TextColor="Gray" FontSize="16" HorizontalOptions="CenterAndExpand" Margin="0,10" />
+            <Label x:Name="priceLabel" TextColor="Green" FontSize="18" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,10" />
+
+            <!-- Кнопка "На карте" -->
+            <Button Text="На карте" BackgroundColor="LightBlue" TextColor="White" HorizontalOptions="FillAndExpand" Margin="10,20"/>
+
+            <!-- Кнопка "В избранное" -->
+            <Button x:Name="favoriteButton"  Text="В избранное" BackgroundColor="LightGreen" TextColor="White" HorizontalOptions="FillAndExpand" Margin="10,5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
