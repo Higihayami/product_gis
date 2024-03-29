@@ -1,12 +1,50 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E5572D7A-FF29-45D1-8B3C-64A2E16CE99E}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.WB.Android PreferredExecutionTarget="Android.Pixel_7_Pro_API_31" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_7_Pro_API_31" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Debugger.DebugSourceFolders>
     <String>/Users/scumwd/Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/d9a6e8710b37cd7f16cf52eff4f772556e57cc41</String>
   </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WB/WB/Services/IDataStore.cs">
+    <Files>
+      <File FileName="WB/WB/Services/IDataStore.cs" Line="16" Column="1" />
+      <File FileName="WB/WB/Services/MockDataStore.cs" />
+      <File FileName="WB/WB/Services/DatabaseService.cs" />
+      <File FileName="WB/WB/GettingStarted.txt" />
+      <File FileName="WB/WB/App.xaml" />
+      <File FileName="WB/WB/Views/LoginPage.xaml" />
+      <File FileName="WB/WB/Views/LoginPage.xaml.cs" />
+      <File FileName="WB/WB/App.xaml.cs" />
+      <File FileName="WB/WB/Views/RegistrationPage.xaml.cs" />
+      <File FileName="WB/WB/Views/ItemsPage.xaml.cs" />
+      <File FileName="../../Library/Caches/VisualStudio/17.0/Symbols/raw.githubusercontent.com/mono/mono/d9a6e8710b37cd7f16cf52eff4f772556e57cc41/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs" />
+      <File FileName="WB/WB/ViewModels/ItemsViewModel.cs" />
+      <File FileName="../../../../usr/local/share/dotnet/x64/sdk/3.1.424/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="WB/WB/AppShell.xaml.cs" />
+      <File FileName="WB/WB/AppShell.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WB">
+            <Node name="WB" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="IDataStore.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="RegistrationPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WB.Android PreferredExecutionTarget="Android.Pixel_7_Pro_API_31" />
+  <MultiItemStartupConfigurations />
 </Properties>
