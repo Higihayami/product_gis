@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace WB.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FavoritePage : ContentView
+    public partial class FavoritePage : ContentPage
     {
         public FavoritePage()
         {

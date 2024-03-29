@@ -11,8 +11,7 @@ namespace WB
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(MainTabbedPage), typeof(MainTabbedPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

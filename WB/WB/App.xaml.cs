@@ -31,7 +31,7 @@ namespace WB
 
         public void SwitchToAppShell()
         {
-            MainPage = new AppShell();
+            MainPage = new MainTabbedPage();
         }
     }
 }

@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/scumwd/Projects/product_gis/WB/WB/WB.csproj": {}
+    "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {}
   },
   "projects": {
-    "/Users/scumwd/Projects/product_gis/WB/WB/WB.csproj": {
+    "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/scumwd/Projects/product_gis/WB/WB/WB.csproj",
+        "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj",
         "projectName": "WB",
-        "projectPath": "/Users/scumwd/Projects/product_gis/WB/WB/WB.csproj",
-        "packagesPath": "/Users/scumwd/.nuget/packages/",
-        "outputPath": "/Users/scumwd/Projects/product_gis/WB/WB/obj/",
+        "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj",
+        "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/scumwd/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,11 +83,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.424/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
