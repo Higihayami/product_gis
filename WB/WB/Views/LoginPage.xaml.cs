@@ -62,23 +62,11 @@ namespace WB.Views
             string username = usernameEntry.Text;
             string password = passwordEntry.Text;
 
-            try
-            {
-                
-
-                
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-            }
-
             bool isAuthenticated = await databaseService.CheckUserExists(username, password);
 
             if (isAuthenticated)
             {
                 ((App)Application.Current).SwitchToAppShell();
-                Navigation.RemovePage(this);
             }
             else
             {
