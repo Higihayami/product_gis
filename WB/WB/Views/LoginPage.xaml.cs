@@ -70,7 +70,7 @@ namespace WB.Views
 
             if (isAuthenticated)
             {
-                await Navigation.PushAsync(new ItemsPage());
+                ((App)Application.Current).SwitchToAppShell();
                 Navigation.RemovePage(this);
             }
             else
@@ -80,10 +80,8 @@ namespace WB.Views
             }
         }
 
-
         async void OnRegisterButtonClicked(object sender, EventArgs e)
         {
-            // Переход на страницу регистрации
             await Navigation.PushAsync(new RegistrationPage());
         }
     }

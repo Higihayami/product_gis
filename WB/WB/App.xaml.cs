@@ -14,7 +14,7 @@ namespace WB
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
@@ -27,6 +27,11 @@ namespace WB
 
         protected override void OnResume()
         {
+        }
+
+        public void SwitchToAppShell()
+        {
+            MainPage = new AppShell();
         }
     }
 }

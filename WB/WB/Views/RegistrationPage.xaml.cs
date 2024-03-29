@@ -76,7 +76,7 @@ namespace WB.Views
             if (result > 0)
             {
                 await DisplayAlert("Success", "Registration successful", "OK");
-                await Navigation.PushAsync(new ItemsPage());
+                await Navigation.PopAsync();
                 Navigation.RemovePage(this);
             }
             else
