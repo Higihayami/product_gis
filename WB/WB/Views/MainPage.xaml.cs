@@ -16,6 +16,7 @@ namespace WB.Views
         public MainPage()
         {
             InitializeComponent();
+            AppState.CurrentPage = "MainPage";
             List<ProductInfo> list = new List<ProductInfo>
             {
                 new ProductInfo

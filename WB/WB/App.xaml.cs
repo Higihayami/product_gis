@@ -16,9 +16,8 @@ namespace WB
             DependencyService.Register<MockDataStore>();
         }
 
-        protected override async void OnStart()
+        protected override void OnStart()
         {
-
             base.OnStart();
 
             string refreshToken = Preferences.Get(Constants.FIREBASE_TOKEN_KEY, "");
@@ -26,7 +25,19 @@ namespace WB
             string navigationPath = Preferences.Get("NavigationPath", null);
             if (!string.IsNullOrEmpty(navigationPath))
             {
-                await Shell.Current.GoToAsync(navigationPath);
+                SwitchToAppShell();
+                switch (navigationPath)
+                {
+                    case "MainPage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[0]; // Переключение на первую вкладку в TabbedPage
+                        break;
+                    case "FavoritePage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[1]; // Переключение на вторую вкладку в TabbedPage
+                        break;
+                    case "ProfilePage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[2]; // Переключение на третью вкладку в TabbedPage
+                        break;
+                }
             }
             else
             {
@@ -41,12 +52,12 @@ namespace WB
             }
         }
 
+
+
         protected override void OnSleep()
         {
             base.OnSleep();
-
-            // Сохраняем текущий путь навигации в Preferences
-            Preferences.Set("NavigationPath", Shell.Current.CurrentState.Location.ToString());
+            Preferences.Set("NavigationPath", AppState.CurrentPage);
         }
 
         protected override void OnResume()

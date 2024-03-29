@@ -20,6 +20,8 @@ namespace WB.Views
         {
             InitializeComponent();
 
+            AppState.CurrentPage = "FavoritePage";
+
             // Путь к базе данных SQLite
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "databaseProducts.db3");
 

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WB.Models;
 using WB.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -42,7 +43,6 @@ namespace WB.Views
             priceLabel.Text = $"Цена: {productInfo.Price}";
             // Дополнительно для отображения изображения товара, если у объекта ProductInfo есть URL картинки
             productImage.Source = ImageSource.FromUri(new Uri(productInfo.Photo));
-
 
             favoriteButton.Clicked += (sender, e) =>
             {

@@ -15,6 +15,7 @@ namespace WB.Views
         public ProfilePage()
         {
             InitializeComponent();
+            AppState.CurrentPage = "ProfilePage";
         }
     }
 }
