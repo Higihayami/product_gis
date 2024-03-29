@@ -1,6 +1,7 @@
 ﻿using System;
 using WB.Services;
 using WB.Views;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +15,17 @@ namespace WB
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new LoginPage());
+            string refreshToken = Preferences.Get(Constants.FIREBASE_TOKEN_KEY, "");
+            Console.WriteLine("TOKENTOKEN" + refreshToken);
+            if (refreshToken != "")
+            {
+                ((App)Application.Current).SwitchToAppShell();
+            }
+            else
+            {
+                MainPage = new NavigationPage(new LoginPage());
+            }
+            
         }
 
         protected override void OnStart()

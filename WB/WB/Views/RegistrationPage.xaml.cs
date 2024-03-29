@@ -75,7 +75,7 @@ namespace WB.Views
             var goodBro = false;
             try
             {
-                var authProvider = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyCGN7HMhOcsN3rg2I19LA1WQqGby53wugI"));
+                var authProvider = new FirebaseAuthProvider(new FirebaseConfig(Constants.FIREBASE_TOKEN));
                 await authProvider.CreateUserWithEmailAndPasswordAsync(username, password);
                 goodBro = true;
             }
