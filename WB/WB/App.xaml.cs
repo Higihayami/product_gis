@@ -1,8 +1,8 @@
 ﻿using System;
 using WB.Services;
 using WB.Views;
+using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace WB
 {
@@ -14,15 +14,50 @@ namespace WB
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
         {
+            base.OnStart();
+
+            string refreshToken = Preferences.Get(Constants.FIREBASE_TOKEN_KEY, "");
+            // Восстанавливаем предыдущий путь навигации из Preferences
+            string navigationPath = Preferences.Get("NavigationPath", null);
+            if (!string.IsNullOrEmpty(navigationPath))
+            {
+                SwitchToAppShell();
+                switch (navigationPath)
+                {
+                    case "MainPage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[0]; // Переключение на первую вкладку в TabbedPage
+                        break;
+                    case "FavoritePage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[1]; // Переключение на вторую вкладку в TabbedPage
+                        break;
+                    case "ProfilePage":
+                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[2]; // Переключение на третью вкладку в TabbedPage
+                        break;
+                }
+            }
+            else
+            {
+                if (!string.IsNullOrEmpty(refreshToken))
+                {
+                    SwitchToAppShell();
+                }
+                else
+                {
+                    MainPage = new NavigationPage(new LoginPage());
+                }
+            }
         }
+
+
 
         protected override void OnSleep()
         {
+            base.OnSleep();
+            Preferences.Set("NavigationPath", AppState.CurrentPage);
         }
 
         protected override void OnResume()

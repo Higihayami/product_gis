@@ -38,6 +38,8 @@ namespace WB.Views
             UpdateFavoriteData();
         }
 
+            AppState.CurrentPage = "FavoritePage";
+
         private void UpdateFavoriteData()
         {
             // Путь к базе данных SQLite
