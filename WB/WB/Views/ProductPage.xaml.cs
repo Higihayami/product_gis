@@ -25,42 +25,47 @@ namespace WB.Views
             InitializeComponent();
             this.productInfo = productInfo;
 
-            // Путь к базе данных SQLite
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "databaseProducts.db3");
 
-            // Инициализация подключения к базе данных SQLite
             connection = new SQLiteConnection(dbPath);
 
-            // Создание таблицы ProductInfo, если её нет
             connection.CreateTable<ProductInfo>();
 
-            // Создание экземпляра databaseService
             databaseService = new DatabaseService(dbPath);
 
-            // Заполнение данных из объекта ProductInfo
             titleLabel.Text = productInfo.Name;
             descriptionLabel.Text = productInfo.Desription;
             priceLabel.Text = $"Цена: {productInfo.Price}";
-            // Дополнительно для отображения изображения товара, если у объекта ProductInfo есть URL картинки
             productImage.Source = ImageSource.FromUri(new Uri(productInfo.Photo));
 
             favoriteButton.Clicked += (sender, e) =>
             {
-                // Сохранение информации о товаре в базу данных SQLite
-                connection.Insert(productInfo);
-                DisplayAlert("Успех", "Товар добавлен в избранное", "OK");
+                var existingProduct = connection.Table<ProductInfo>().FirstOrDefault(p => p.Id == productInfo.Id);
+
+                if (existingProduct == null)
+                {
+                    connection.Insert(productInfo);
+                    DisplayAlert("Успех", "Товар добавлен в избранное", "OK");
+                }
+                else
+                {
+                    DisplayAlert("Предупреждение", "Товар уже существует в избранном", "OK");
+                }
             };
 
-            favoriteButton.Clicked += (sender, e) =>
+            mapButton.Clicked += (sender, e) =>
             {
-                //toMapPage(e);
+                if (Device.RuntimePlatform == Device.Android)
+                {
+                    toMapPage();
+                }
             };
 
         }
 
-        async private void toMapPage(ProductInfo e)
+        async private void toMapPage()
         {
-            //await Navigation.PushAsync(new MapPage());
+            await Navigation.PushAsync(new MapPage(productInfo));
         }
     }
 }

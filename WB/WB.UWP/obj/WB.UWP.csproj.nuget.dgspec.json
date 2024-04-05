@@ -142,6 +142,10 @@
               "target": "Package",
               "version": "[3.4.0, )"
             },
+            "Mapsui.Forms": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -156,7 +160,15 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
             "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[5.0.0.2196, )"
             },

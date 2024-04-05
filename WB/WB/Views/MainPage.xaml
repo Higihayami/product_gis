@@ -7,7 +7,7 @@
             <DataTemplate>
                 <ImageCell Text="{Binding Name}"
                           Detail ="{Binding Desription}"
-                           ImageSource="{Binding Photo}"/>
+                           ImageSource="{Binding Photo}" Height="100"/>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

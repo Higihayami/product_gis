@@ -22,15 +22,12 @@ namespace WB.Views
             UpdateFavoriteData();
         }
 
-        // Обработчик события выбора элемента в ListView
-        private void myListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        async private void myListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            if (e.SelectedItem != null)
-            {
-                ProductInfo selectedProduct = (ProductInfo)e.SelectedItem;
-                // Здесь можно добавить логику для обработки выбранного продукта, например, открыть детали продукта
-            }
+            var product = e.SelectedItem as ProductInfo;
+            await Navigation.PushAsync(new ProductPage(product));
         }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();

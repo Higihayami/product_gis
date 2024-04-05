@@ -98,3 +98,4 @@ C:\Users\fatik\source\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.dll
 C:\Users\fatik\source\product_gis\WB\WB\bin\Debug\netstandard2.0\ref\WB.dll
 C:\Users\fatik\source\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.pdb
 C:\Users\fatik\source\product_gis\WB\WB\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\fatik\source\product_gis\WB\WB\obj\Debug\netstandard2.0\Views\MapPage.xaml.g.cs

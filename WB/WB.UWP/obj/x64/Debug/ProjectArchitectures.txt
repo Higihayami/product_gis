@@ -1,1 +1,1 @@
-C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\WB.UWP.csproj;x64
+C:\Users\fatik\source\product_gis\WB\WB.UWP\WB.UWP.csproj;x64

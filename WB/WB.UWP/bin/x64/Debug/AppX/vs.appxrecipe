@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=FBD9D6F3-D5AA-4B2D-95BB-5383F3BF07F8</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\fatik\source\product_gis\WB\WB.UWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>B1F01F7916394B42955B73E6578197E8AC90567DB302B9249734924E68AD31B6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>CA8B4C9A-BB3D-4577-967B-F91572C312D7_1.0.0.0_x64__s6cx85xp8ey36</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>CA8B4C9A-BB3D-4577-967B-F91572C312D7_s6cx85xp8ey36!App</RegisteredUserModeAppID>
@@ -27,20 +27,52 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T13:41:07.107</Modified>
+      <Modified>2024-04-05T12:02:35.241</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\WB.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\WB.UWP.exe">
       <PackagePath>entrypoint\WB.UWP.exe</PackagePath>
-      <Modified>2024-03-29T13:41:02.849</Modified>
+      <Modified>2024-04-05T12:02:34.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\brutile\4.0.0\lib\netstandard2.0\BruTile.dll">
+      <PackagePath>BruTile.dll</PackagePath>
+      <Modified>2021-07-18T11:32:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\firebaseauthentication.net\3.4.0\lib\netstandard1.1\Firebase.Auth.dll">
       <PackagePath>Firebase.Auth.dll</PackagePath>
       <Modified>2019-11-27T21:22:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\fizzler\1.2.0\lib\netstandard2.0\Fizzler.dll">
+      <PackagePath>Fizzler.dll</PackagePath>
+      <Modified>2018-01-31T09:09:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\harfbuzzsharp\2.6.1.7\runtimes\win10-x64\nativeassets\uap10.0\libHarfBuzzSharp.dll">
+      <PackagePath>libHarfBuzzSharp.dll</PackagePath>
+      <Modified>2020-09-11T08:50:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\harfbuzzsharp\2.6.1.7\lib\uap10.0.16299\HarfBuzzSharp.dll">
+      <PackagePath>HarfBuzzSharp.dll</PackagePath>
+      <Modified>2020-09-11T08:50:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\mapsui\3.0.2\lib\netstandard2.0\Mapsui.Geometries.dll">
+      <PackagePath>Mapsui.Geometries.dll</PackagePath>
+      <Modified>2021-10-29T16:02:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\mapsui\3.0.2\lib\netstandard2.0\Mapsui.Rendering.Skia.dll">
+      <PackagePath>Mapsui.Rendering.Skia.dll</PackagePath>
+      <Modified>2021-10-29T16:02:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\mapsui\3.0.2\lib\netstandard2.0\Mapsui.dll">
+      <PackagePath>Mapsui.dll</PackagePath>
+      <Modified>2021-10-29T16:02:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\mapsui.forms\3.0.2\lib\netstandard2.0\Mapsui.UI.Forms.dll">
+      <PackagePath>Mapsui.UI.Forms.dll</PackagePath>
+      <Modified>2021-10-29T16:03:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\newtonsoft.json\13.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -49,6 +81,42 @@
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-05T01:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\shimskiasharp\0.5.7.1\lib\netstandard2.0\ShimSkiaSharp.dll">
+      <PackagePath>ShimSkiaSharp.dll</PackagePath>
+      <Modified>2021-08-20T17:51:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x64\nativeassets\uap10.0\libEGL.dll">
+      <PackagePath>libEGL.dll</PackagePath>
+      <Modified>2020-09-11T08:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x64\nativeassets\uap10.0\libGLESv2.dll">
+      <PackagePath>libGLESv2.dll</PackagePath>
+      <Modified>2020-09-11T08:53:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp\2.80.2\runtimes\win10-x64\nativeassets\uap10.0\libSkiaSharp.dll">
+      <PackagePath>libSkiaSharp.dll</PackagePath>
+      <Modified>2020-09-11T08:53:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp\2.80.2\lib\uap10.0.16299\SkiaSharp.dll">
+      <PackagePath>SkiaSharp.dll</PackagePath>
+      <Modified>2020-09-11T08:53:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp.harfbuzz\2.80.2\lib\netstandard2.0\SkiaSharp.HarfBuzz.dll">
+      <PackagePath>SkiaSharp.HarfBuzz.dll</PackagePath>
+      <Modified>2020-09-11T08:55:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp.views\2.80.2\runtimes\win10-x64\nativeassets\uap10.0\SkiaSharp.Views.Interop.UWP.dll">
+      <PackagePath>SkiaSharp.Views.Interop.UWP.dll</PackagePath>
+      <Modified>2020-09-11T08:59:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp.views\2.80.2\lib\uap10.0\SkiaSharp.Views.UWP.dll">
+      <PackagePath>SkiaSharp.Views.UWP.dll</PackagePath>
+      <Modified>2020-09-11T08:59:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\skiasharp.views.forms\2.80.2\lib\uap10.0\SkiaSharp.Views.Forms.dll">
+      <PackagePath>SkiaSharp.Views.Forms.dll</PackagePath>
+      <Modified>2020-09-11T09:07:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
@@ -70,9 +138,29 @@
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2020-09-03T17:13:06.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\svg.custom\0.5.7.1\lib\netstandard2.0\Svg.Custom.dll">
+      <PackagePath>Svg.Custom.dll</PackagePath>
+      <Modified>2021-08-20T17:51:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\svg.model\0.5.7.1\lib\netstandard2.0\Svg.Model.dll">
+      <PackagePath>Svg.Model.dll</PackagePath>
+      <Modified>2021-08-20T17:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\svg.skia\0.5.7.1\lib\netstandard2.0\Svg.Skia.dll">
+      <PackagePath>Svg.Skia.dll</PackagePath>
+      <Modified>2021-08-20T17:51:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\system.drawing.common\5.0.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T19:38:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2018-09-18T19:38:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\topten.richtextkit\0.4.145\lib\netstandard2.0\Topten.RichTextKit.dll">
+      <PackagePath>Topten.RichTextKit.dll</PackagePath>
+      <Modified>2021-08-15T05:14:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -81,6 +169,22 @@
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.essentials\1.7.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2021-07-13T15:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.ffimageloading\2.4.11.982\lib\uap\FFImageLoading.Platform.dll">
+      <PackagePath>FFImageLoading.Platform.dll</PackagePath>
+      <Modified>2019-05-19T20:46:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.ffimageloading\2.4.11.982\lib\uap\FFImageLoading.dll">
+      <PackagePath>FFImageLoading.dll</PackagePath>
+      <Modified>2019-05-19T20:46:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.ffimageloading.forms\2.4.11.982\lib\uap\FFImageLoading.Forms.Platform.dll">
+      <PackagePath>FFImageLoading.Forms.Platform.dll</PackagePath>
+      <Modified>2019-05-19T20:46:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.ffimageloading.forms\2.4.11.982\lib\uap\FFImageLoading.Forms.dll">
+      <PackagePath>FFImageLoading.Forms.dll</PackagePath>
+      <Modified>2019-05-19T20:46:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.forms\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -98,9 +202,17 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-10-14T09:55:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.dll">
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.forms.maps\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+      <Modified>2021-10-14T09:55:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\xamarin.forms.maps\5.0.0.2196\lib\uap10.0.16299\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+      <Modified>2021-10-14T09:54:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB\bin\Debug\netstandard2.0\WB.dll">
       <PackagePath>WB.dll</PackagePath>
-      <Modified>2024-03-29T13:35:26.663</Modified>
+      <Modified>2024-04-05T12:02:28.387</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\fatik\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -114,168 +226,168 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-10-14T09:49:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2024-03-29T11:30:52.826</Modified>
+      <Modified>2024-04-05T07:01:56.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.816</Modified>
+      <Modified>2024-04-05T07:01:56.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.816</Modified>
+      <Modified>2024-04-05T07:01:56.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.817</Modified>
+      <Modified>2024-04-05T07:01:56.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.817</Modified>
+      <Modified>2024-04-05T07:01:56.928</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.817</Modified>
+      <Modified>2024-04-05T07:01:56.929</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.818</Modified>
+      <Modified>2024-04-05T07:01:56.929</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.818</Modified>
+      <Modified>2024-04-05T07:01:56.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.818</Modified>
+      <Modified>2024-04-05T07:01:56.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.819</Modified>
+      <Modified>2024-04-05T07:01:56.931</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.819</Modified>
+      <Modified>2024-04-05T07:01:56.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.820</Modified>
+      <Modified>2024-04-05T07:01:56.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.820</Modified>
+      <Modified>2024-04-05T07:01:56.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.820</Modified>
+      <Modified>2024-04-05T07:01:56.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.821</Modified>
+      <Modified>2024-04-05T07:01:56.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.821</Modified>
+      <Modified>2024-04-05T07:01:56.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.821</Modified>
+      <Modified>2024-04-05T07:01:56.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.821</Modified>
+      <Modified>2024-04-05T07:01:56.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.822</Modified>
+      <Modified>2024-04-05T07:01:56.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.822</Modified>
+      <Modified>2024-04-05T07:01:56.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.822</Modified>
+      <Modified>2024-04-05T07:01:56.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.823</Modified>
+      <Modified>2024-04-05T07:01:56.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.823</Modified>
+      <Modified>2024-04-05T07:01:56.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.823</Modified>
+      <Modified>2024-04-05T07:01:56.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.824</Modified>
+      <Modified>2024-04-05T07:01:56.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.824</Modified>
+      <Modified>2024-04-05T07:01:56.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.824</Modified>
+      <Modified>2024-04-05T07:01:56.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-29T11:30:52.825</Modified>
+      <Modified>2024-04-05T07:01:56.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
-      <Modified>2024-03-29T11:30:53.004</Modified>
+      <Modified>2024-04-05T07:01:57.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\icon_about.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\icon_about.png">
       <PackagePath>icon_about.png</PackagePath>
-      <Modified>2024-03-29T11:30:52.983</Modified>
+      <Modified>2024-04-05T07:01:57.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\icon_feed.png">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\icon_feed.png">
       <PackagePath>icon_feed.png</PackagePath>
-      <Modified>2024-03-29T11:30:52.984</Modified>
+      <Modified>2024-04-05T07:01:57.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\WB.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\WB.UWP.xr.xml">
       <PackagePath>WB.UWP.xr.xml</PackagePath>
-      <Modified>2024-03-29T11:30:52.995</Modified>
+      <Modified>2024-04-05T07:01:57.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-03-29T13:41:02.794</Modified>
+      <Modified>2024-04-05T12:02:34.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-03-29T13:41:02.794</Modified>
+      <Modified>2024-04-05T12:02:34.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -289,13 +401,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T00:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-29T13:41:03.265</Modified>
+      <Modified>2024-04-05T11:39:20.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\fatik\source\repos\product_gis\WB\WB.UWP\bin\x64\Debug\Core\WB.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\fatik\source\product_gis\WB\WB.UWP\bin\x64\Debug\Core\WB.UWP.exe">
       <PackagePath>WB.UWP.exe</PackagePath>
-      <Modified>2024-03-29T13:41:07.102</Modified>
+      <Modified>2024-04-05T12:02:35.236</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
