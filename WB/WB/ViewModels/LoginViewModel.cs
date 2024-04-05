@@ -57,8 +57,9 @@ namespace WB.ViewModels
                 Preferences.Set(Constants.FIREBASE_TOKEN_KEY, serialized);
                 goodBro = true;
             }
-            catch
+            catch (Exception ex)
             {
+                await Application.Current.MainPage.DisplayAlert("Error", ex.Message, "OK");
                 goodBro = false;
             }
 
@@ -68,7 +69,7 @@ namespace WB.ViewModels
             {
                 ((App)Application.Current).SwitchToAppShell();
             }
-            else if (!isAuthenticated && goodBro)
+            else if (goodBro)
             {
                 await databaseService.AddUserAsync(Username, Password);
                 ((App)Application.Current).SwitchToAppShell();

@@ -7749,7 +7749,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -12600,26 +12600,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fatik\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
+    "C:\\Users\\ibnee\\.nuget\\packages\\": {},
+    "D:\\vscs\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\ibnee\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
       "projectName": "WB.UWP",
-      "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
-      "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\obj\\",
+      "projectPath": "C:\\Users\\ibnee\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
+      "packagesPath": "C:\\Users\\ibnee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ibnee\\source\\repos\\product_gis\\WB\\WB.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        "D:\\vscs\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fatik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ibnee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12633,8 +12631,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
-              "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj"
+            "C:\\Users\\ibnee\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
+              "projectPath": "C:\\Users\\ibnee\\source\\repos\\product_gis\\WB\\WB\\WB.csproj"
             }
           }
         }
@@ -12652,21 +12650,9 @@
             "target": "Package",
             "version": "[6.2.12, )"
           },
-          "Microsoft.NETCore.UniversalWindowsPlatform": {
-            "target": "Package",
-            "version": "[6.2.12, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
