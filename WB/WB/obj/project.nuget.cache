@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Be1K9I4+sOH4qRtKqQ/l0xNtvfpVlZCrc21yzSCQn5Q5fw0xyrKTglEWEeJOqRMaSw5bT5Yxqg0TukDyTO6v7A==",
+  "dgSpecHash": "yPPabfnsKk8tVh8XrFmcCbFMNVcvQyedIQP0gPHebGiRA/+bJB2QGP5eCF15pE1RazZkzLsgaNE0tUhZzhfomg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj",
+  "projectFilePath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatik\\.nuget\\packages\\firebaseauthentication.net\\3.4.0\\firebaseauthentication.net.3.4.0.nupkg.sha512",
     "C:\\Users\\fatik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

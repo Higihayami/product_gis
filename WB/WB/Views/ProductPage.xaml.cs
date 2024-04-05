@@ -53,14 +53,14 @@ namespace WB.Views
 
             favoriteButton.Clicked += (sender, e) =>
             {
-                toMapPage(e);
+                //toMapPage(e);
             };
 
         }
 
         async private void toMapPage(ProductInfo e)
         {
-            await Navigation.PushAsync(new MapPage());
+            //await Navigation.PushAsync(new MapPage());
         }
     }
 }

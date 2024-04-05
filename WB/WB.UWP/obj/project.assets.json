@@ -12607,11 +12607,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
       "projectName": "WB.UWP",
-      "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
+      "projectPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.UWP\\WB.UWP.csproj",
       "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.UWP\\obj\\",
+      "outputPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -12633,8 +12633,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
-              "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj"
+            "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj": {
+              "projectPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj"
             }
           }
         }
@@ -12652,21 +12652,9 @@
             "target": "Package",
             "version": "[6.2.12, )"
           },
-          "Microsoft.NETCore.UniversalWindowsPlatform": {
-            "target": "Package",
-            "version": "[6.2.12, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

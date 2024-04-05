@@ -2,3 +2,7 @@
 .vs/WB/xs/project-cache
 WB/WB.Android/obj
 WB/WB/obj
+/WB/WB.Android/obj
+/WB/WB/obj
+/WB/WB.Android/bin/Debug
+/WB/WB/bin/Debug

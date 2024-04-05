@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {}
+    "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
+    "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj",
+        "projectUniqueName": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj",
         "projectName": "WB",
-        "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj",
+        "projectPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj",
         "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\obj\\",
+        "outputPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

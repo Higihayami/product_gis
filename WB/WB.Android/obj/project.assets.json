@@ -3735,11 +3735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
+      "projectUniqueName": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
       "projectName": "WB.Android",
-      "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
+      "projectPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
       "packagesPath": "C:\\Users\\fatik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.Android\\obj\\",
+      "outputPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3760,8 +3760,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj": {
-              "projectPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\WB.csproj"
+            "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj": {
+              "projectPath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\WB.csproj"
             }
           }
         }
@@ -3778,6 +3778,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

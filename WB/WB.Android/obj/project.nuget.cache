@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a5l7VG3HiG4IsW55RqZ6ynfXmkEU5KAbZoOg17zVsSw8eJWPRRQWo6zHWiYxXSEH9uzaesVZQApFkOH1kzpijw==",
+  "dgSpecHash": "udRpEj3n20VPrBo8cal9FsTz/GWh8wh6qVeiLx3gcz/97rxJf6PoZtd/2jqgZ9BvjFdLEZ+pKu37rUCd7bW0Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
+  "projectFilePath": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB.Android\\WB.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatik\\.nuget\\packages\\firebaseauthentication.net\\3.4.0\\firebaseauthentication.net.3.4.0.nupkg.sha512",
     "C:\\Users\\fatik\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
