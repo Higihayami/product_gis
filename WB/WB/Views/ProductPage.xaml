@@ -11,7 +11,7 @@
             <Label x:Name="priceLabel" TextColor="Green" FontSize="18" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" Margin="0,10" />
 
             <!-- Кнопка "На карте" -->
-            <Button Text="На карте" BackgroundColor="LightBlue" TextColor="White" HorizontalOptions="FillAndExpand" Margin="10,20"/>
+            <Button x:Name="mapButton"  Text="На карте" BackgroundColor="LightBlue" TextColor="White" HorizontalOptions="FillAndExpand" Margin="10,20"/>
 
             <!-- Кнопка "В избранное" -->
             <Button x:Name="favoriteButton"  Text="В избранное" BackgroundColor="LightGreen" TextColor="White" HorizontalOptions="FillAndExpand" Margin="10,5"/>

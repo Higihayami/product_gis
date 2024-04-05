@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\fatik\\source\\repos\\product_gis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\favoritepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\favoritepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\favoritepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\favoritepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\itemspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\itemspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\favoritepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\favoritepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\repos\\product_gis\\wb\\wb\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -108,37 +112,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 339,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FavoritePage.xaml",
-              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml",
-              "RelativeDocumentMoniker": "WB\\WB\\Views\\FavoritePage.xaml",
-              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml",
-              "RelativeToolTip": "WB\\WB\\Views\\FavoritePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
+              "DocumentIndex": 1,
+              "Title": "ItemsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ItemsPage.xaml",
+              "RelativeDocumentMoniker": "WB\\WB\\Views\\ItemsPage.xaml",
+              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ItemsPage.xaml",
+              "RelativeToolTip": "WB\\WB\\Views\\ItemsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-29T13:33:14.922Z",
+              "WhenOpened": "2024-03-29T14:21:59.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FavoritePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\FavoritePage.xaml.cs",
               "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml.cs",
               "RelativeToolTip": "WB\\WB\\Views\\FavoritePage.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwB0AAAAqAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T13:33:13.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\MainPage.xaml",
@@ -151,46 +155,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductPage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ProductPage.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ProductPage.xaml",
               "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ProductPage.xaml",
               "RelativeToolTip": "WB\\WB\\Views\\ProductPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-29T13:29:23.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ProductPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ProductPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ProductPage.xaml.cs",
               "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ProductPage.xaml.cs",
               "RelativeToolTip": "WB\\WB\\Views\\ProductPage.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowC0AAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T13:07:10.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "WB\\WB\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "WB\\WB\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T12:58:05.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductInfo.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Models\\ProductInfo.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Models\\ProductInfo.cs",
@@ -203,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\App.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\App.xaml.cs",
@@ -216,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\AppShell.xaml.cs",
@@ -229,7 +220,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WB\\WB\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "WB\\WB\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:01:23.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "WB\\WB\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "WB\\WB\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:58:05.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FavoritePage.xaml",
+              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml",
+              "RelativeDocumentMoniker": "WB\\WB\\Views\\FavoritePage.xaml",
+              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\FavoritePage.xaml",
+              "RelativeToolTip": "WB\\WB\\Views\\FavoritePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-29T13:33:14.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "NewItemPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\NewItemPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\NewItemPage.xaml.cs",
@@ -242,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\App.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\App.xaml",
@@ -255,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ProfilePage.xaml",
@@ -268,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RegistrationPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\RegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\RegistrationPage.xaml.cs",
@@ -281,20 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "WB\\WB\\Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "WB\\WB\\Views\\MainPage.xaml.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAswDwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T12:01:23.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ItemDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ItemDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ItemDetailPage.xaml.cs",
@@ -307,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\AppShell.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\AppShell.xaml",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\LoginPage.xaml",
@@ -333,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MainTabbedPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\MainTabbedPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\MainTabbedPage.xaml.cs",
@@ -346,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ItemsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ItemsPage.xaml.cs",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ItemsPage.xaml.cs",
@@ -359,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ItemDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\Views\\ItemDetailPage.xaml",
               "RelativeDocumentMoniker": "WB\\WB\\Views\\ItemDetailPage.xaml",
@@ -372,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WB\\WB\\AssemblyInfo.cs",
@@ -380,11 +397,12 @@
               "RelativeToolTip": "WB\\WB\\AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:57:40.11Z"
+              "WhenOpened": "2024-03-15T13:57:40.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB\\Views\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "..\\WB\\WB\\WB\\Views\\HomePage.xaml.cs",
@@ -392,11 +410,12 @@
               "RelativeToolTip": "..\\WB\\WB\\WB\\Views\\HomePage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:47:22.443Z"
+              "WhenOpened": "2024-03-15T13:47:22.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\WB\\WB\\WB\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "..\\WB\\WB\\WB\\Views\\HomePage.xaml",
@@ -404,11 +423,12 @@
               "RelativeToolTip": "..\\WB\\WB\\WB\\Views\\HomePage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-15T13:47:21Z"
+              "WhenOpened": "2024-03-15T13:47:21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "WB\\WB\\ViewModels\\LoginViewModel.cs",
@@ -416,7 +436,8 @@
               "RelativeToolTip": "WB\\WB\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T13:02:06.261Z"
+              "WhenOpened": "2024-03-15T13:02:06.261Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -434,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MyImageCell.cs",
               "DocumentMoniker": "C:\\Users\\fatik\\source\\repos\\product_gis\\WB\\WB\\MyImageCell.cs",
               "RelativeDocumentMoniker": "WB\\WB\\MyImageCell.cs",

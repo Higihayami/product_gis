@@ -51,6 +51,16 @@ namespace WB.Views
                 DisplayAlert("Успех", "Товар добавлен в избранное", "OK");
             };
 
+            favoriteButton.Clicked += (sender, e) =>
+            {
+                toMapPage(e);
+            };
+
+        }
+
+        async private void toMapPage(ProductInfo e)
+        {
+            await Navigation.PushAsync(new MapPage());
         }
     }
 }

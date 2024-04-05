@@ -19,7 +19,27 @@ namespace WB.Views
         public FavoritePage()
         {
             InitializeComponent();
+            UpdateFavoriteData();
+        }
 
+        // Обработчик события выбора элемента в ListView
+        private void myListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
+            {
+                ProductInfo selectedProduct = (ProductInfo)e.SelectedItem;
+                // Здесь можно добавить логику для обработки выбранного продукта, например, открыть детали продукта
+            }
+        }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            // Обновите данные из SQL
+            UpdateFavoriteData();
+        }
+
+        private void UpdateFavoriteData()
+        {
             // Путь к базе данных SQLite
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "databaseProducts.db3");
 
@@ -34,16 +54,6 @@ namespace WB.Views
 
             // Привязка списка избранных продуктов к ListView
             myListView.ItemsSource = favoriteProducts;
-        }
-
-        // Обработчик события выбора элемента в ListView
-        private void myListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            if (e.SelectedItem != null)
-            {
-                ProductInfo selectedProduct = (ProductInfo)e.SelectedItem;
-                // Здесь можно добавить логику для обработки выбранного продукта, например, открыть детали продукта
-            }
         }
     }
 }
