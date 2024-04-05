@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.IO;
+using WB.ViewModels;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,6 +14,7 @@ namespace WB.Views
         {
             InitializeComponent();
             AppState.CurrentPage = "ProfilePage";
+            BindingContext = new ProfileViewModel();
         }
     }
 }

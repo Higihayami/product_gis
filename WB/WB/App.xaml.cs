@@ -12,7 +12,6 @@ namespace WB
         public App()
         {
             InitializeComponent();
-
             DependencyService.Register<MockDataStore>();
         }
 
@@ -20,39 +19,33 @@ namespace WB
         {
             base.OnStart();
 
-            string refreshToken = Preferences.Get(Constants.FIREBASE_TOKEN_KEY, "");
+            string userId = Preferences.Get("userId", "");
             // Восстанавливаем предыдущий путь навигации из Preferences
             string navigationPath = Preferences.Get("NavigationPath", null);
-            if (!string.IsNullOrEmpty(navigationPath))
+            if (!string.IsNullOrEmpty(userId))
             {
-                SwitchToAppShell();
-                switch (navigationPath)
+                if (!string.IsNullOrEmpty(navigationPath))
                 {
-                    case "MainPage":
-                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[0]; // Переключение на первую вкладку в TabbedPage
-                        break;
-                    case "FavoritePage":
-                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[1]; // Переключение на вторую вкладку в TabbedPage
-                        break;
-                    case "ProfilePage":
-                        ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[2]; // Переключение на третью вкладку в TabbedPage
-                        break;
+                    SwitchToAppShell();
+                    switch (navigationPath)
+                    {
+                        case "MainPage":
+                            ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[0];
+                            break;
+                        case "FavoritePage":
+                            ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[1];
+                            break;
+                        case "ProfilePage":
+                            ((MainTabbedPage)MainPage).CurrentPage = ((MainTabbedPage)MainPage).Children[2];
+                            break;
+                    }
                 }
             }
             else
             {
-                if (!string.IsNullOrEmpty(refreshToken))
-                {
-                    SwitchToAppShell();
-                }
-                else
-                {
-                    MainPage = new NavigationPage(new LoginPage());
-                }
+                MainPage = new NavigationPage(new LoginPage());
             }
         }
-
-
 
         protected override void OnSleep()
         {
@@ -67,6 +60,11 @@ namespace WB
         public void SwitchToAppShell()
         {
             MainPage = new MainTabbedPage();
+        }
+
+        public void SwitchToLoginPage()
+        {
+            MainPage = new LoginPage();
         }
     }
 }

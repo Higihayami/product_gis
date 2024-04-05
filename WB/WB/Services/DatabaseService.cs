@@ -23,10 +23,28 @@ namespace WB.Services
             return user != null;
         }
 
+        public async Task<int> UpdateUser(User user)
+        {
+            return await _database.UpdateAsync(user);
+        }
+
+        public async Task<Guid> GetUserIdByUsername(string username)
+        {
+            var user = await _database.Table<User>().FirstOrDefaultAsync(u => u.Username == username);
+            return user != null ? user.Id : Guid.Empty;
+        }
+
+        public async Task<User> GetUserById(Guid userId)
+        {
+            return await _database.FindAsync<User>(userId);
+        }
+
+
         public async Task<int> AddUserAsync(string username, string password)
         {
             var user = new User
             {
+                Id = Guid.NewGuid(),
                 Username = username,
                 Password = password
             };

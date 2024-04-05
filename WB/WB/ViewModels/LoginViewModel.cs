@@ -52,9 +52,6 @@ namespace WB.ViewModels
             try
             {
                 var auth = await authProvider.SignInWithEmailAndPasswordAsync(Username, Password);
-                var content = await auth.GetFreshAuthAsync();
-                var serialized = JsonConvert.SerializeObject(content);
-                Preferences.Set(Constants.FIREBASE_TOKEN_KEY, serialized);
                 goodBro = true;
             }
             catch
@@ -66,11 +63,15 @@ namespace WB.ViewModels
 
             if (isAuthenticated)
             {
+                var userId = await databaseService.GetUserIdByUsername(username);
+                Preferences.Set("userId", userId.ToString());
                 ((App)Application.Current).SwitchToAppShell();
             }
             else if (!isAuthenticated && goodBro)
             {
                 await databaseService.AddUserAsync(Username, Password);
+                var userId = await databaseService.GetUserIdByUsername(username);
+                Preferences.Set("userId", userId.ToString());
                 ((App)Application.Current).SwitchToAppShell();
             }
             else
