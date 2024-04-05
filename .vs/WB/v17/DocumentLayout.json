@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fatik\\source\\product_gis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\product_gis\\wb\\wb\\views\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\productpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\product_gis\\wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\productpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|c:\\users\\fatik\\source\\product_gis\\wb\\wb\\views\\registrationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{2333B363-35E5-4674-9E54-D8EEF05AB2F6}|WB\\WB\\WB.csproj|solutionrelative:wb\\wb\\views\\registrationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,34 +13,31 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 116,
+          "DockedHeight": 299,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\ProductPage.xaml.cs",
-              "RelativeDocumentMoniker": "WB\\WB\\Views\\ProductPage.xaml.cs",
-              "ToolTip": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\ProductPage.xaml.cs*",
-              "RelativeToolTip": "WB\\WB\\Views\\ProductPage.xaml.cs*",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T07:12:34.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductPage.xaml",
-              "DocumentMoniker": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\ProductPage.xaml",
-              "RelativeDocumentMoniker": "WB\\WB\\Views\\ProductPage.xaml",
-              "ToolTip": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\ProductPage.xaml",
-              "RelativeToolTip": "WB\\WB\\Views\\ProductPage.xaml",
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "WB\\WB\\Views\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\fatik\\source\\product_gis\\WB\\WB\\Views\\RegistrationPage.xaml",
+              "RelativeToolTip": "WB\\WB\\Views\\RegistrationPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-05T07:12:28.585Z",
+              "WhenOpened": "2024-04-05T07:28:28.956Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 101,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",

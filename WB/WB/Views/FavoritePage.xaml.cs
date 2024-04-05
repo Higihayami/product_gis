@@ -38,7 +38,7 @@ namespace WB.Views
             UpdateFavoriteData();
         }
 
-            AppState.CurrentPage = "FavoritePage";
+            //AppState.CurrentPage = "FavoritePage";
 
         private void UpdateFavoriteData()
         {
